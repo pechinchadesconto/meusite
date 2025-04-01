@@ -44,11 +44,11 @@
             border-bottom: 1px solid #eee;
         }
         
-        .logo {
-            font-size: 24px;
-            font-weight: bold;
-            color: var(--primary-color);
-        }
+        .logo img {
+    max-height: 50px;
+    vertical-align: middle;
+    border-radius: 5px; /* opcional: para cantos arredondados */
+}
         
         .search-bar {
             display: flex;
@@ -581,7 +581,9 @@
 <body>
     <header>
         <div class="top-header">
-            <div class="logo">MeuSite</div>
+            <<div class="logo">
+    <img src="images/logo-pechincha-desconto.png" alt="Pechincha Desconto" height="50">
+</div>>
             <div class="search-bar">
                 <input type="text" placeholder="O que você procura?">
                 <button><i class="fas fa-search"></i></button>
